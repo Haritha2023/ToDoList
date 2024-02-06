@@ -1,0 +1,87 @@
+.body{
+    margin:0;
+    padding:0;
+    background-color: blueviolet;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 2px solid white;
+   width: 40%;
+   min-width: 400px;
+   position: absolute;
+   padding: 30px 40px;
+
+}
+.input-box{
+    width: 95%;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    padding: 15px 10px;
+}
+.inputField{
+    width: 75%;
+    height: 35px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    outline: none;
+    padding:12px;
+    color:black;
+    border-color: blueviolet;
+}
+.addBtn{
+    background-color: blue;
+    padding:15px;
+    margin:1rem;
+    color:azure;
+    border: 2px solid transparent;
+    border-radius: 20%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.list{
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 93%;
+    padding: 30px 20px;
+    margin-top:10px;
+}
+.task{
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    position: relative;
+}
+#taskname{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.delBtn{
+    background-color: blueviolet; 
+    color:#d1d3d4;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+
